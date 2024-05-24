@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *
 {
@@ -36,8 +37,8 @@ body
 .wrapper
 {
     position: relative;
-    width:54rem;
-    height: 35rem;
+    width:90vw;
+    height: 94vh;
     padding: 2rem;
     /* background: red; */
 }
@@ -545,19 +546,4 @@ body
     top:-1.8rem;
     transform: translateX(-50%) scale(1);
 }
-/* 
-#media query for mobile view */
-/* @media (max-width: 900px)
-{
-    .wrapper
-    {
-        width:40rem;
-        height:60rem;
-    }
-    p {
-        font-size: 20px;
-    };
-  
-}
- */
 
