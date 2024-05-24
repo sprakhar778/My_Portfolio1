@@ -37,8 +37,8 @@ body
 .wrapper
 {
     position: relative;
-    width:90vw;
-    height: 94vh;
+    width:80vw;
+    height: 90vh;
     padding: 2rem;
     /* background: red; */
 }
