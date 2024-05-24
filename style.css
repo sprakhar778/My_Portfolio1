@@ -41,6 +41,7 @@ body
     height: 90vh;
     padding: 2rem;
     /* background: red; */
+    
 }
 
 .cover
@@ -64,6 +65,7 @@ body
 .cover.cover-right.turn
 {
    transform: rotateY(180deg);
+   left: -1px;
 }
 
 .book
@@ -547,3 +549,12 @@ body
     transform: translateX(-50%) scale(1);
 }
 
+/* Responsive */
+@media screen and (max-width: 560px) {
+    .wrapper
+    {
+        height: 60vh;
+        width: 90vw;
+        background-color: red;
+    }
+}
